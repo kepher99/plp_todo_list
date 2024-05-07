@@ -1,3 +1,4 @@
+//immediately invoked function expression
 (() => {
   let toDoListArray = [];
 
@@ -40,7 +41,7 @@
   }
 
   function removeItemFromDOM(id){
-    var li = document.querySelector('[data-id=" ' + id + '"]');
+    var li = document.querySelector('[data-id="' + id + '"]');
     ul.removeChild(li);
   }
 
